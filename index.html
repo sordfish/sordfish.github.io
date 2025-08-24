@@ -9,11 +9,11 @@ ul{padding-left:1rem}li{margin:.25rem 0}
 </style>
 </head>
 <body>
-  <h1>USERNAME’s public repositories</h1>
+  <h1>sordfish’s public repositories</h1>
   <ul id="list"></ul>
 <script>
 (async ()=>{
-  const user="USERNAME";  // hard-coded username
+  const user="sordfish";  // hard-coded username
   const list=document.getElementById("list");
   try{
     const res=await fetch(`https://api.github.com/users/${user}/repos?per_page=100&sort=updated`);
